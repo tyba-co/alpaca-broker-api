@@ -17,6 +17,11 @@ export class JournalData {
   'from_account': string
   'to_account': string
   'description'?: string | 'rejected' | 'pending'
+  'transmitter_name'?: string
+  'transmitter_account_number'?: string
+  'transmitter_address'?: string
+  'transmitter_financial_institution'?: string
+  'transmitter_timestamp'?: string
 
   static discriminator: string | undefined = undefined
 
